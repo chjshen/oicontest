@@ -1,0 +1,57 @@
+{
+  "name": "oicontest",
+  "version": "1.1.0",
+  "description": "OI Contest Management Tool",
+  "main": "dist/index.js",
+  "bin": {
+    "oicontest": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oi",
+    "contest",
+    "lemon",
+    "hydrooj"
+  ],
+  "author": "chjshen",
+  "license": "MIT",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@types/katex": "^0.16.7",
+    "adm-zip": "^0.5.10",
+    "archiver": "^7.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "highlight.js": "^11.11.1",
+    "inquirer": "^9.2.10",
+    "js-yaml": "^4.1.0",
+    "jsdom": "^26.1.0",
+    "katex": "^0.16.22",
+    "marked": "^16.1.1",
+    "marked-highlight": "^2.2.2",
+    "marked-katex-extension": "^5.1.5",
+    "mkdirp": "^3.0.1",
+    "moment": "^2.30.1",
+    "pdf-lib": "^1.17.1",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.0",
+    "@types/archiver": "^6.0.3",
+    "@types/chalk": "^2.2.0",
+    "@types/fs-extra": "^11.0.1",
+    "@types/highlight.js": "^10.1.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/js-yaml": "^4.0.9",
+    "@types/mkdirp": "^2.0.0",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^24.0.15",
+    "@types/rimraf": "^4.0.5",
+    "typescript": "^5.1.6"
+  }
+}
