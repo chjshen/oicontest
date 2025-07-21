@@ -5,7 +5,7 @@
 假设你要组织一次名为 `my_contest` 的比赛，包含两道题：
 
 ```bash
-oicontest init my_contest
+oicontest init            # 中间有交互，contestid为 my_contest
 cd my_contest
 oicontest addproblem      # 添加第一道题，按提示输入
 oicontest addproblem      # 添加第二道题
@@ -47,7 +47,7 @@ oicontest package         # 打包整个 contest 目录，便于同行分发
 
 ## 1. 初始化测试
 ```bash
-oicontest init <contest_dir>
+oicontest init 
 ```
 - 交互式创建比赛目录结构，生成全局配置文件。
 - `<contest_dir>` 为比赛目录名（如 my_contest）。
