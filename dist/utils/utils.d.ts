@@ -1,0 +1,10 @@
+import { ContestConfig } from "../lib/config";
+export declare function getTemplate(templateDir: string, templateName: string): string;
+export declare function writeFileWithDir(filePath: string, content: string): void;
+export declare function readYaml(filePath: string): unknown;
+export declare function writeYaml(filePath: string, data: Object): void;
+export declare function checkFileExists(filePath: string): boolean;
+export declare function countSubdirectories(directoryPath: string): Promise<number>;
+export declare function loadJsonFile(filePath: string): Promise<any>;
+export declare function verifyProblems(problemDir: string): Promise<number>;
+export declare function contestInfoToMarkdown(config: ContestConfig): Promise<string>;
